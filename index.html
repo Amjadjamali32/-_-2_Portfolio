@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Template</title>
+</head>
+<style>
+    body {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    .cardSkills:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        color: rgb(8, 255, 20);
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+</style>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <img class="img-fluid mx-2 my-2 rounded-circle shadow-sm" src="logo.png" width="40"
+                    alt="This is an image">
+                <a class="navbar-brand mx-4 fw-bold fs-2" href="#">Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="bg-info" id="Home">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="container col-lg-6 p-sm-2 p-lg-4 text-center mt-5">
+                        <p class="text-center fs-3 my-3">Hi I'm</p>
+                        <p class="text-center fs-3 fw-bold">John Doe</p>
+                        <p class="text-center fs-2">
+                            I am a <span id="element" class="text-light fw-bold"></span>
+                        </p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis dolorum natus dignissimos vero
+                        est alias eum ipsa numquam. Omnis molestiae iusto voluptatem ipsum voluptatibus. Commodi, maxime
+                        debitis. Excepturi, incidunt adipisci.
+                        <div class="container my-4">
+                            <a href="#" class="btn btn-outline-dark mx-4 fw-bold my-3" tabindex="-1" role="button"
+                                aria-disabled="true">Get in touch &rarr;</a>
+                            <a href="#" class="btn btn-outline-dark fw-bold" tabindex="-1" role="button"
+                                aria-disabled="true">Download Resume</a>
+                        </div>
+                    </div>
+                    <div class="container col-lg-6 text-center ms-sm-auto mt-4">
+                        <img src="profile.png" alt="This is an image" class="rounded img-fluid ms-sm-auto mb-lg-5"
+                            width="300">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-success" id="portfolio">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="container text-center align-center">
+                        <p class="fs-2 fw-bold my-4 text-center text-light">PORTFOLIO</p>
+                        <p class="fs-3 fw-bold my-4 text-center text-light">My Skills</p>
+                        <div class="container row mx-sm-auto text-center justify-content-center">
+                            <div class="card mx-sm-auto my-sm-5 bg-light cardSkills" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Web Developer</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <img src="1.png" class="card-img-top img-fluid w-50" alt="This is an image">
+                                </div>
+                            </div>
+                            <div class="card mx-sm-auto my-sm-5 bg-light cardSkills" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">App Developer</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <img src="3.png" class="card-img-top img-fluid w-50" alt="This is an image">
+                                </div>
+                            </div>
+                            <div class="card mx-sm-auto my-sm-5 bg-light cardSkills" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Web Designer</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <img src="2.png" class="card-img-top img-fluid w-50" alt="This is an image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container col-lg-6 text-center p-4">
+                <p class="fs-3 fw-bold text-center text-light">Technical Skills</p>
+                <p class="text-center text-light fw-bold fs-5">HTML</p>
+                <div class="progress my-3">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="100"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="text-center text-light fw-bold fs-5">CSS</p>
+                <div class="progress my-3">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 75%" aria-valuenow="50"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="text-center text-light fw-bold fs-5">JavaScript</p>
+                <div class="progress my-3">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="75"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="text-center text-light fw-bold fs-5">Bootstrap</p>
+                <div class="progress my-3">
+                    <div class="progress-bar bg-dark" role="progressbar" style="width: 70%;" aria-valuenow="75"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="text-center text-light fw-bold fs-5">C++</p>
+                <div class="progress my-3">
+                    <div class="progress-bar bg-secondary" role="progressbar" style="width: 70%" aria-valuenow="75"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="text-center text-light fw-bold fs-5">SQL</p>
+                <div class="progress">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 70%" aria-valuenow="75"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="bg-info" id="about">
+            <div class="container-fluid">
+                <div class="row">
+                    <p class="fs-2 fw-bold my-4 text-center text-light">ABOUT</p>
+                    <div class="container col-lg-6 justify-content-center align-center text-center">
+                        <img src="about.png" alt="This is an image"
+                            class="rounded img-fluid mx-sm-auto my-sm-auto pb-sm-2 w-50">
+                    </div>
+                    <div class="container col-lg-6 p-2 text-center">
+                        <p class="my-4 p-4 fs-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ut nesciunt nostrum rerum sit
+                            deleniti tenetur, repellat sequi, quod laboriosam aliquam tempore nihil quae sint vero, ipsa
+                            excepturi deserunt officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ut
+                            nesciunt nostrum rerum sit deleniti tenetur, repellat sequi, quod laboriosam aliquam tempore
+                            nihil quae sint vero, ipsa excepturi deserunt officia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-success" id="contact">
+            <div class="container-fluid justify-content-center">
+                <p class="text-light fw-bold fs-2 text-center p-3">CONTACT</p>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-6">
+                        <div class="container text-light bg-dark shadow-lg my-sm-4 rounded p-4 ms-sm-auto">
+                            <p class="text-center fw-bold fs-3">Get in touch</p>
+                            <form action="index.php" method="POST">
+                                <div class="form-group my-2">
+                                    <label for="uname"> <i class="bi bi-person"></i> Name</label>
+                                    <input type="text" class="form-control" id="uname" aria-describedby="emailHelp"
+                                        placeholder="Jon Doe">
+                                </div>
+                                <div class="form-group my-2">
+                                    <label for="umail"> <i class="bi bi-envelope"></i> Email</label>
+                                    <input type="email" class="form-control" id="umail"
+                                        placeholder="johndoe123@gmail.com">
+                                </div>
+                                <div class="form-group my-2">
+                                    <label for="mobile"> <i class="bi bi-phone"></i> Mobile</label>
+                                    <input type="text" class="form-control" id="mobile" placeholder="32452153">
+                                </div>
+                                <div class="form-group my-2">
+                                    <label for="message"> <i class="bi bi-chat-dots"></i> Your Concern</label>
+                                    <textarea class="form-control" id="message" rows="3"
+                                        placeholder="Message"></textarea>
+                                </div>
+                                <div class="container my-3 text-center">
+                                    <button type="submit"
+                                        class="btn btn-success text-light fw-bold px-4">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="contact.png" alt="This is an image" class="img-fluid w-75 my-3 ms-5">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-info" id="blog">
+            <div class="container-fluid">
+                <div class="container row mx-sm-auto justify-content-center">
+                    <p class="text-center text-light fs-2 fw-bold my-4">BLOG</p>
+                    <div class="card mx-sm-auto my-3 shadow-lg" style="width: 18rem;">
+                        <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHl0aG9uJTIwY29kZXxlbnwwfHwwfHx8MA%3D%3D"
+                            class="card-img-top img-fluid p-2 rounded" alt="This is an image.">
+                        <div class="card-body">
+                            <h5 class="card-title">Python Programming</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-info text-dark">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card mx-sm-auto shadow-lg my-3" style="width: 18rem;">
+                        <img src="https://i.pinimg.com/736x/2b/36/b3/2b36b30abae1afc5acfdfe4c01ca8c98.jpg"
+                            class="card-img-top img-fluid p-2 rounded w-100 h-50" alt="This is an image.">
+                        <div class="card-body">
+                            <h5 class="card-title">OOP in C++</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-info text-dark">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card mx-sm-auto my-3" style="width: 18rem;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJZIdC3e8o1IL6XptuFoogKyIWHq47Ng8jRh9CmE8slw&s"
+                            class="card-img-top img-fluid rounded p-2 h-50 shadow-lg" alt="This is an image.">
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-info text-dark">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card mx-sm-auto my-3" style="width: 18rem;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6yXmsH_wgapOhiq8VirSUSX2VaxAhRoL-xI2jT7Zviw&s"
+                            class="card-img-top img-fluid rounded h-50" alt="This is an image.">
+                        <div class="card-body">
+                            <h5 class="card-title">Machine Learning</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-info text-dark">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container-fluid bg-dark">
+            <div class="row">
+                <div class="container col-lg-6 text-light">
+                    <img src="logo.png" alt="This is an image." width="40" class="img-fluid rounded-circle mx-3 my-2">
+                    <span>&copy; 2023 <span class="fw-bold">Portfolio</span> | All rights reserverd.</span>
+                </div>
+                <div class="container col-lg-6">
+                    <ul class="d-flex justify-content-end mx-3 my-3" style="list-style-type: none; cursor: pointer;">
+                        <li class="mx-3"><a href="#"><i class="fa-brands fa-facebook fa-2xl"
+                                    style="color: #ffffff;"></i></a></li>
+                        <li class="mx-3"><a href="#"><i class="fa-brands fa-linkedin fa-2xl"
+                                    style="color: #ffffff;"></i></a></li>
+                        <li class="mx-3"><a href="#"><i class="fa-brands fa-twitter fa-2xl"
+                                    style="color: #ffffff;"></i></a></li>
+                        <li class="mx-3"><a href="#"><i class="fa-brands fa-instagram fa-2xl"
+                                    style="color: #ffffff;"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var typed = new Typed("#element", {
+            strings: ["Web Developer", "App Developer", "Web Designer", "Graphic Designer"],
+            typeSpeed: 50,
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
